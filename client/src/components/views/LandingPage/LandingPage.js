@@ -6,7 +6,7 @@ import MainImage from '../commons/MainImage'
 import GridCards from '../commons/GridCards'
 
 function LandingPage() {
-
+    
     const [Movies, setMovies] = useState([])
     const [MainMovieImage, setMainMovieImage] = useState(null)
     const [CurrentPage, setCurrentPage] = useState(0)
